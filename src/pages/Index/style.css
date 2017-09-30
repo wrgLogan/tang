@@ -1,0 +1,53 @@
+.body-pic{
+    width: 100%;
+}
+
+.main-container{
+    /* overflow: hidden; */
+}
+
+.button{
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    background-image: url('../../assets/image/index_button.png');
+    height: 35px;
+    width: 153px;
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: -2px;
+    line-height: 35px;
+    text-indent: 23px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.button1{
+    top: 20%;
+    right: 76.3%;
+}
+
+.button2{
+    top: 23.8%;
+    right: 15%;
+}
+
+.button3{
+    top: 49.3%;
+    /* left: 11%; */
+    right: 75.5%;
+}
+
+.button4{
+    top: 63%;
+    right: 10.5%;
+}
+
+.button5{
+    top: 89%;
+    right: 79%;
+}
+
+.button:hover{
+    color: #ffb616;
+}

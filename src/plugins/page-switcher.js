@@ -7,7 +7,7 @@ var install = function (Vue, options) {
         root.$data.animation = '';
     }
 
-    root.$data.animation = 'backward';
+    root.$data.animation = 'fade';
 
     Vue.prototype.$switchTo = Vue.prototype.switchTo = function(path, animation, duration) {
         if (duration) {

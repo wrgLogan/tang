@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import Main from '@/components/Main'
+import Index from '@/pages/Index/index'
+import Tangce from '@/pages/Tangce/index'
+import Tangshuo from '@/pages/Tangshuo/index'
+import Tangren from '@/pages/Tangren/index'
+import Hezuo from '@/pages/Hezuo/index'
 
 Vue.use(Router)
 
@@ -9,13 +12,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Index',
+      component: Index
     },
     {
-      path: '/main',
-      name: 'Main',
-      component: Main
+      path: '/tangce',
+      name: 'Tangce',
+      component: Tangce
+    },
+    {
+      path: '/tangshuo',
+      name: 'Tangshuo',
+      component: Tangshuo
+    },
+    {
+      path: '/tangren',
+      name: 'Tangren',
+      component: Tangren
+    },
+    {
+      path: '/hezuo',
+      name: 'Hezuo',
+      component: Hezuo
     }
   ]
 })
