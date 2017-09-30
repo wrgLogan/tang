@@ -4,7 +4,7 @@
       <ul>
         <li class="active" @click="navSwitchTo('/')"><div class="link">首页</div></li>
         <li class="" @click="navSwitchTo('/tangce')"><div class="link">唐策</div></li>
-        <li class=""><div class="link">唐作</div></li>
+        <li class="" @click="navSwitchTo('/tangzuo')"><div class="link">唐作</div></li>
         <li class="" @click="navSwitchTo('/tangshuo')"><div class="link">唐说</div></li>
         <li class="" @click="navSwitchTo('/tangren')"><div class="link">唐人</div></li>
         <li class="" @click="navSwitchTo('/hezuo')"><div class="link">合作</div></li>

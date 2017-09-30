@@ -4,6 +4,9 @@ import router from './router'
 import pageSwitcher from './plugins/page-switcher.js'
 import './assets/css/transition.css'
 import './assets/css/main.css'
+import jQuery from 'jquery'
+import nicescroll from 'nicescroll'
+window.$ = jQuery;
 
 Vue.config.productionTip = false
 

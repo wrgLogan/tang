@@ -5,6 +5,7 @@ import Tangce from '@/pages/Tangce/index'
 import Tangshuo from '@/pages/Tangshuo/index'
 import Tangren from '@/pages/Tangren/index'
 import Hezuo from '@/pages/Hezuo/index'
+import Tangzuo from '@/pages/Tangzuo/index'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/hezuo',
       name: 'Hezuo',
       component: Hezuo
+    },
+    {
+      path: '/tangzuo',
+      name: 'Tangzuo',
+      component: Tangzuo
     }
   ]
 })
