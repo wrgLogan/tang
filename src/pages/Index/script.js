@@ -1,4 +1,4 @@
-import imgUrl from '@/assets/image/index.png'
+import imgUrl from '@/assets/image/index_min.jpg'
 import myFooter from '@/components/Footer'
 import buttonUrl from '@/assets/image/index_button.png'
 

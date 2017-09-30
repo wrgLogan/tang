@@ -1,4 +1,4 @@
-import imgUrl from '@/assets/image/tangshuo.png'
+import imgUrl from '@/assets/image/tangshuo_min.jpg'
 import myFooter from '@/components/Footer'
 
 export default {
