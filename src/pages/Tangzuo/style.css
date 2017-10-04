@@ -82,7 +82,7 @@
     display: none;
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -80px;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -122,6 +122,36 @@
     width: 600px;
 }
 
+
+.close-btn{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .video-container{
+        width: 500px;
+    }
+
+    .longPic-container{
+        width: 500px;
+    }
+
+    .longPic-container img{
+        width: 400px;
+    }
+}
+/* 
+@media screen and (max-width: 1000px) and (min-height: 800px) {
+    .close-btn{
+        top: 80px;
+        width: 90px;
+    }
+} */
+
 .left-btn, .right-btn{
     position: fixed;
     width: 90px;
@@ -134,13 +164,7 @@
     transform: translate(0, -50%) scale(1.1);
 }
 
-.close-btn{
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    width: 60px;
-    cursor: pointer;
-}
+
 
 .left-btn{
     

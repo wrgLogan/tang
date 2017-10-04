@@ -13,10 +13,13 @@
     <transition :name="animation">
         <router-view class="page-container"></router-view>
     </transition>
+    <back-top/>  
   </div>
 </template>
 
 <script>
+import BackTop from './components/BackTop'
+
 export default {
   name: 'app',
   computed: {
@@ -39,6 +42,9 @@ export default {
     navSwitchTo(path){
       this.switchTo(path, 'fade');
     }
+  },
+  components: {
+    BackTop
   }
 }
 </script>
@@ -60,7 +66,7 @@ export default {
   background-position: 5% center;
   z-index: 1;
   /* box-shadow: 0 1px 5px #bbb; */
-  min-width: 1168px;
+  min-width: 900px;
 }
 
 .header-nav ul{
@@ -118,9 +124,10 @@ export default {
     left: 0px;
     top: 80px;
     width: 100%;
+    min-width: 900px;
 }
 
 .body-pic{
-  min-width: 1168px;
+  min-width: 900px;
 }
 </style>

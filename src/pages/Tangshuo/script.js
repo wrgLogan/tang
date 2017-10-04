@@ -1,11 +1,13 @@
 import imgUrl from '@/assets/image/tangshuo_min.jpg'
 import myFooter from '@/components/Footer'
+import audioUrl from '@/assets/audio/唐说采访音频.mp3'
 
 export default {
     data: function(){
         return {
             msg: 'index',
-            imgUrl: imgUrl
+            imgUrl: imgUrl,
+            audioUrl: audioUrl
         }
     },
     mounted: function() {
